@@ -1,0 +1,328 @@
+body {
+    color: aliceblue;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: black;
+}
+
+.nav {
+  display: block;
+  align-items: center;
+  background-color: #1A1A1D;
+  background-image: linear-gradient(to right,#0b0b14, #0a0a12);
+  justify-content: center;
+  padding: 10px, 20px;
+}
+
+.nav p {
+
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Sansation", sans-serif;
+    margin-top: -1px;
+    padding:25px;
+}
+
+.nav ul {
+
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    padding-top: 20px; 
+    margin-left: 5px;
+    margin: 0px;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Zalando Sans", sans-serif;
+}
+
+.nav a:hover {
+  background-color: rgb(18, 18, 32);
+  border-radius: 10px;
+  box-shadow: 0 3px 10px 0 rgba(33, 33, 33, 0.6);
+}
+
+.nav a {
+
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+    padding: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+
+}
+
+.dropdown button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  position: none;
+  min-width: 100px;
+  z-index: 111;
+  background-color: #671c2b;
+  box-shadow: 2px 2px 5px red;
+  display: none;
+  position: relative;
+  top: 10px;
+}
+
+.content a {
+  float: none;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+}
+
+.dropdown:hover .content{
+  display: block;
+  background-color: rgb(18, 18, 32);
+  background-image: linear-gradient(to right,#0b0b14, #0a0a12);
+  border-radius: 10px;
+  box-shadow: 0 3px 10px 0 rgba(33, 33, 33, 0.6);
+
+}
+
+.keren{
+
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: "Sansation", sans-serif;
+    margin-top: -1px;
+    padding-top: 11px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.keren:hover {  
+  background-color: rgb(18, 18, 32);
+  border-radius: 10px;
+  box-shadow: 0 3px 10px 0 rgba(33, 33, 33, 0.6);
+}
+
+#space {
+
+height: 600px;
+max-width: 100%;
+z-index: -1;
+position: absolute;
+top: 10px;
+border-radius: 10px;
+transform: scaleY(-1);
+filter: brightness(40%);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+} 
+
+.welcome {
+
+  text-align: center;
+  font-size: 50px;
+  color: whitesmoke;
+  padding: 150px;
+  font-weight: bold;
+  font-family: "Sansation", sans-serif;
+}
+
+#animated-fade {
+  animation: fadeOut 2s forwards;
+}
+
+@keyframes fadeOut {  
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main-1 {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Sansation", sans-serif;
+  animation: fadeOut 4s forwards;
+}
+
+.main-2 {
+
+  text-align: center;
+  font-size: 19px;
+  font-family: "Sansation", sans-serif;
+  animation: fadeOut 5s forwards;
+}
+
+footer {
+
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin: 0px;
+  margin-top:0px;
+  background-color: #1A1A1D;
+   background-image: linear-gradient(to right,#0b0b14, #0a0a12);
+}
+
+.contact {
+  display: inline-block;
+  margin-top: 10px;
+
+}
+
+.contact a {
+
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.contact li {
+  padding: 20px 15px;
+}
+
+#address {
+  list-style-image: url('/Img/mail.png');
+  position: relative;
+  padding: 3px;
+  padding-left: 15px;
+  margin: 0px;
+}
+
+#address-a {
+
+  position: relative;
+  top: -6px;
+}
+
+#call {
+
+  list-style-image: url('Img/call.png');
+  margin: 0px;
+
+}
+
+#call-a {
+
+  position: relative;
+  top: -7px;
+}
+
+.connect{
+
+  margin-left: 1000px;
+  margin-top: -135px;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  top: 15px;
+  left: -10px;
+  position: relative;
+  margin-right: 35px;
+  font-size: 17px;
+}
+
+.connect-flex {
+
+  display: flex;
+  padding: 10px;
+  padding-top: 20px;
+  margin-bottom: 60px;
+  
+}
+
+#link-yt {
+
+  padding: 5px;
+  color: rgb(225, 225, 225)
+}
+
+#link-yt:hover {
+
+  color: #ff0033
+}
+
+#link-fb {
+
+  padding: 5px;
+  color: rgb(225, 225, 225)
+}
+
+#link-fb:hover {
+
+  color: #1778F2
+}
+
+
+#link-ig {
+
+  padding: 5px;
+  color: rgb(225, 225, 225)
+}
+
+#link-ig:hover {
+
+  color: #833AB4
+}
+
+.profile {  
+  margin: 0px 300px 150px;
+  display: flex;
+  position: relative;
+  top: -10px;
+  background-color: #2e2e33;
+  background-image: linear-gradient(to left, #0b0b17, #0e0e11);
+  border-radius: 10%;
+
+}
+
+.img {
+  height: 150px;
+  border-radius: 50%;
+  padding: 30px;
+  margin-left: 50px;
+  animation: fadeout 4% forwards;
+}
+
+.mybio {
+  margin-left: 200px;
+  margin-top: 25px;
+  list-style-type: none;
+  padding: 1px;
+  font-family: "Sansation", sans-serif;
+  animation: fadeOut 4s forwards;
+}
+
+
+/* ================================ */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column; /* ubah jadi vertikal */
+    justify-content: center;
+  }
+
+  .nav ul {
+    position: static; /* hapus posisi absolut */
+    flex-direction: column; /* tumpuk menu */
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .nav li {
+    margin: 8px 0;
+  }
+
+  .nav p {
+    font-size: 20px;
+  }
+}
